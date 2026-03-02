@@ -1,0 +1,250 @@
+
+
+.blog2-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #725be7;
+    color: white;
+  }
+  
+  #linkhome {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  #linkhome:hover {
+    background-color: #ac05ac;
+    border-radius: 10px;
+  }
+  
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .searchbox input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #9d1f1f;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .searchbox input:focus {
+    border-color: #007BFF;
+  }
+  
+  .searchbox button.add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #f3f4f6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .searchbox button.add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(203, 199, 199);
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-section form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-section input:focus,
+  .form-section textarea:focus {
+    border-color: #007BFF;
+  }
+  
+  .form-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-section button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  .form-section button[type="button"]:hover,
+  .form-section button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .form-section button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
+  .blog-list {
+     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  
+  .blog-card {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card h2 {
+    
+    color: #333;
+  }
+  
+  .blog-card h4 {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .blog-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .blog-card #edit  {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #28a4c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+
+  .blog-card #delete  {
+    font-size: 14px;
+    background-color: #92e30f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .blog-card #edit:hover {
+    background-color: #08066e;
+  }
+
+  .blog-card #delete:hover {
+    background-color: #e2073a;
+  }
+  
+  .blog-card button:focus {
+    outline: none;
+  }
+  
+
+  .btn-row {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 10px;
+  }
+
+  
+  .blog-list p {
+    color: #333;
+    margin-left: 15px;
+  }
+
+  .btn {
+    background-color: #e241d7;
+    color: #fff;
+    padding: 10px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn:last-child {
+    background-color: #e74c3c;
+  }
+  
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+  }
+  
